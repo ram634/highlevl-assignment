@@ -1,0 +1,128 @@
+.wallet-app-main-container {
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #e3f2fd;
+  position: relative;
+}
+
+.wallet-container {
+  width: 100%;
+  background-color: aqua;
+  height: 100%;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.wallet-login-page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 10vh;
+}
+
+.wallet-login-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.wallet-login-container {
+  background-color: white;
+  margin-top: 4vh;
+}
+
+.wallet-login-input {
+  margin: 1.5vh 0;
+  width: 20rem;
+  height: 3vh;
+}
+
+.wallet-heading {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.submit-btn {
+  margin-top: 2vh;
+  background-color: crimson;
+  color: white;
+  height: 4vh;
+  cursor: pointer;
+}
+
+.wallet-info-box {
+  background-color: white;
+  width: 100%;
+  /* height: 15vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-bal-head {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.wallet-bal {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.wallet-wlcm-msg {
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.wallet-transaction-box {
+  background-color: white;
+  width: 90%;
+  height: 15vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  border-radius: 15px;
+}
+
+.transaction-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.transaction-list {
+  width: 100%;
+  margin-top: 2vh;
+}
+
+.tranasaction-table-box {
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.csv-dnld-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+
